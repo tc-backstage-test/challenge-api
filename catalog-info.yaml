@@ -3,6 +3,8 @@ kind: Component
 metadata:
   name: challenge-api
   description: An example of a Backstage application.
+  annotations:
+    github.com/project-slug: tc-backstage-test/challenge-api
 spec:
   type: website
   owner: backstage-dev
