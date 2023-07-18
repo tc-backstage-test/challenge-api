@@ -14,7 +14,7 @@ spec:
   consumesApis:
     - test1-api
   dependsOn:
-    - test1
+    - component:test1
 ---
 apiVersion: backstage.io/v1alpha1
 kind: API
