@@ -9,6 +9,12 @@ spec:
   type: website
   owner: backstage-dev
   lifecycle: experimental
+  providesApis:
+    - challenge-api
+  consumesApis:
+    - test1-api
+  dependsOn:
+    - test1
 ---
 apiVersion: backstage.io/v1alpha1
 kind: API
