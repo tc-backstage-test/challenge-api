@@ -17,6 +17,6 @@ metadata:
 spec:
   type: openapi
   lifecycle: experimental
-  owner: eisbilir
+  owner: user:eisbilir
   definition:
     $text: https://github.com/tc-backstage-test/challenge-api/blob/dev/docs/swagger.yaml
