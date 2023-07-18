@@ -1,8 +1,10 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: tc-backstage-io
+  name: challenge-api
   description: An example of a Backstage application.
+  annotations:
+    github.com/project-slug: tc-backstage-test/challenge-api
 spec:
   type: website
   owner: backstage-dev
