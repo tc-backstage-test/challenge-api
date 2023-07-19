@@ -10,6 +10,11 @@ spec:
   type: website
   owner: backstage-dev
   lifecycle: experimental
+  labels:
+    language: nodejs
+    label: test
+  tags:
+    - javascript
   providesApis:
     - challenge-api
   consumesApis:
