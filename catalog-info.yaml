@@ -3,6 +3,11 @@ kind: Component
 metadata:
   name: challenge-api
   description: An example of a Backstage application.
+  labels:
+    language: nodejs
+    label: test
+  tags:
+    - javascript
   annotations:
     github.com/project-slug: tc-backstage-test/challenge-api
     circleci.com/project-slug: github/tc-backstage-test/challenge-api
@@ -10,11 +15,6 @@ spec:
   type: website
   owner: backstage-dev
   lifecycle: experimental
-  labels:
-    language: nodejs
-    label: test
-  tags:
-    - javascript
   providesApis:
     - challenge-api
   consumesApis:
