@@ -31,6 +31,7 @@ metadata:
       title: Alerts
       icon: alert
   annotations:
+    backstage.io/source-location: url:https://github.com/tc-backstage-test/challenge-api
     github.com/project-slug: tc-backstage-test/challenge-api
     circleci.com/project-slug: github/tc-backstage-test/challenge-api
 spec:
